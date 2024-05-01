@@ -5,5 +5,11 @@ def Add(x,y):
     sum = x+y
     return sum
 
-print("sum is: ", Add(a,b))
+def Subtract(x, y):
+  difference = x - y
+  return difference
+
+print("sum is: ", Add(a, b))
+print("difference is: ", Subtract(b, a))  
+
 
